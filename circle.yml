@@ -16,4 +16,4 @@ deployment:
     branch: master
     commands:
       #- $DEPLOY
-      - $ curl --data "build=true" -X POST https://registry.hub.docker.com/u/rhouck/fitter-happier-docker/trigger/ae301b9f-7026-43a8-9e65-f4ce5313c2f2/
+      - curl --data "build=true" -X POST https://registry.hub.docker.com/u/rhouck/fitter-happier-docker/trigger/ae301b9f-7026-43a8-9e65-f4ce5313c2f2/
